@@ -1,4 +1,4 @@
-FROM debian:buster-slim AS dependency-base
+FROM debian:10.12-slim AS dependency-base
 
 ENV DEBIAN_FRONTEND noninteractive
 
